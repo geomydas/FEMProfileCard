@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta
+      name="description"
+      content="Victor Crest, 26. From London. 80k followers, 803k likes and 1.4k photos. Join Bingdagamlan now!"
+    />
+    <meta name="author" content="geomydas" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <style>
+      /* kumbh-sans-regular - latin */
+      @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: "Kumbh Sans";
+        font-style: normal;
+        font-weight: 400;
+        src: url("../fonts/kumbh-sans-v22-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      }
+
+      /* kumbh-sans-700 - latin */
+      @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: "Kumbh Sans";
+        font-style: normal;
+        font-weight: 700;
+        src: url("../fonts/kumbh-sans-v22-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      }
+    </style>
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body
+    style="
+      background-image: url(../images/bg-pattern-bottom.svg),
+        url(../images/bg-pattern-top.svg);
+      background-position:
+        bottom right,
+        top left;
+    "
+    class="bg-teal flex min-h-screen flex-col items-center justify-center"
+  >
+    <main class="w-full max-w-xs">
+      <div
+        class="flex flex-col items-center justify-end rounded-t-xl bg-[url(../images/bg-pattern-card.svg)] bg-center bg-no-repeat  bg-cover "
+      >
+        <img
+          src="../images/image-victor.jpg"
+          class="rounded-full translate-y-1/2  border-4 border-white"
+          alt="avatar"
+        />
+      </div>
+      <div class="rounded-b-xl bg-white px-8 pb-8 pt-16">
+        <h1
+          class="text-grayishblue font-regular font-kumbh mb-4 text-center text-xl"
+        >
+          <strong class="text-darkblue font-bold">Victor Crest</strong>
+          26
+        </h1>
+        <p class="font-kumbh text-gray mb-6 text-center">London</p>
+        <hr
+          class="border-gray mb-6 ml-[-2rem] w-[calc(100%+4rem)] opacity-25"
+        />
+        <ul class="font-kumbh flex justify-between">
+          <li class="text-gray text-center tracking-widest">
+            <strong class="text-darkblue block text-xl">80K</strong>
+            Followers
+          </li>
+          <li class="text-gray text-center tracking-widest">
+            <strong class="text-darkblue block text-xl">803K</strong>
+            Likes
+          </li>
+          <li class="text-gray text-center tracking-widest">
+            <strong class="text-darkblue block text-xl">1.4K</strong>
+            Photos
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
