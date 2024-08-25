@@ -21,3 +21,4 @@ pnpm-lock.yaml
 #Tools related stuff
 .prettierrc
 tailwind.config.js
+.parcel-cache/
